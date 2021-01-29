@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme="light">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.67.0" /><meta name="theme-color" content="#fff" />
+        <script>
+            const userPrefers = localStorage.getItem('theme');
+            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
+            if (userPrefers === 'dark') {
+                changeModeMeta('dark');
+            } else if (userPrefers === 'light') {
+                changeModeMeta('light');
+            } else if (darkModeMediaQuery.matches) {
+                changeModeMeta('dark');
+            } else if (lightModeMediaQuery.matches) {
+                changeModeMeta('light');
+            }
+            function changeModeMeta(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                if (theme === 'dark') {
+                    changeThemeColor('#1c1c21');
+                } else {
+                    changeThemeColor('#fff');
+                }
+            }
+            function changeThemeColor(themeColor) {
+                document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
+            }
+        </script>
+
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>编程艺术家 Lee215 的算法旅程 | 海外兔</title>
+
+    <link rel="stylesheet" href="//osjobs.net/interview/css/meme.min.90d794ab5995ee0cab428d702258c4d15153ce64f3a78d40c4009d53d98160de.css" integrity="sha256-kNeUq1mV7gyrQo1wIljE0VFTzmTzp41AxACdU9mBYN4=" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="Windson Yang" />
+    <meta name="description" content="大家好，我是 Lee215，一名普通的算法爱好者，希望通过编程的方式给大家带来愉悦和惊喜的感受。感谢 Windson 的这一次采访。欢迎大家 Follow 我不定期更新的 Youtube 和 B 站。也可以通过公众号 “Lee215的Code” 了解更多。
+" />
+
+    <link rel="shortcut icon" href="//osjobs.net/interview/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="//osjobs.net/interview/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="//osjobs.net/interview/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="海外兔" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="海外兔" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="//osjobs.net/interview/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="//osjobs.net/interview/posts/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF%E5%AE%B6-lee215-%E7%9A%84%E7%AE%97%E6%B3%95%E6%97%85%E7%A8%8B/" />
+
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "datePublished": "2020-09-13T16:40:41+08:00",
+        "dateModified": "2020-09-15T20:04:49+08:00",
+        "url": "//osjobs.net/interview/posts/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF%E5%AE%B6-lee215-%E7%9A%84%E7%AE%97%E6%B3%95%E6%97%85%E7%A8%8B/",
+        "headline": "编程艺术家 Lee215 的算法旅程",
+        "description": "大家好，我是 Lee215，一名普通的算法爱好者，希望通过编程的方式给大家带来愉悦和惊喜的感受。感谢 Windson 的这一次采访。欢迎大家 Follow 我不定期更新的 Youtube 和 B 站。也可以通过公众号 “Lee215的Code” 了解更多。\n",
+        "inLanguage" : "zh",
+        "articleSection": "posts",
+        "wordCount":  164 ,
+        "image": ["https://cdn.jsdelivr.net/gh/OSJobs/osjobs-info@master/assets/imgs/Lee.jpg"],
+        "author": {
+            "@type": "Person",
+            "description": "Pass",
+            "email": "wiwindson@outlook.com",
+            "image": "//osjobs.net/icons/apple-touch-icon.png",
+            "url": "https://osjobs.net",
+            "name": "Windson Yang"
+        },
+        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "海外兔",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "//osjobs.net/icons/apple-touch-icon.png"
+            },
+            "url": "//osjobs.net/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "//osjobs.net/"
+        }
+    }
+</script>
+
+    
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+
+
+<meta name="twitter:site" content="@reuixiy" />
+
+    
+
+
+
+
+
+<meta property="og:title" content="编程艺术家 Lee215 的算法旅程" />
+<meta property="og:description" content="大家好，我是 Lee215，一名普通的算法爱好者，希望通过编程的方式给大家带来愉悦和惊喜的感受。感谢 Windson 的这一次采访。欢迎大家 Follow 我不定期更新的 Youtube 和 B 站。也可以通过公众号 “Lee215的Code” 了解更多。
+" />
+<meta property="og:url" content="//osjobs.net/interview/posts/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF%E5%AE%B6-lee215-%E7%9A%84%E7%AE%97%E6%B3%95%E6%97%85%E7%A8%8B/" />
+<meta property="og:site_name" content="海外兔" />
+<meta property="og:locale" content="zh" /><meta property="og:image" content="https://cdn.jsdelivr.net/gh/OSJobs/osjobs-info@master/assets/imgs/Lee.jpg" />
+<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-09-13T16:40:41+08:00" />
+    <meta property="article:modified_time" content="2020-09-15T20:04:49+08:00" />
+    
+    <meta property="article:section" content="posts" />
+
+
+        <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+
+        
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101956048-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-101956048-11');
+    </script>
+
+
+
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            <html>
+<head>
+  <meta charset="utf-8">
+  <base href="">
+  <title>Overseas Rabbit | 海外兔</title>
+  
+    
+  
+</head>
+<body>
+  <div class="header-wrapper">
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://osjobs.net">
+          <strong>Overseas Rabbit | 海外兔</strong>
+        </a>
+        <a role="button" class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a target="_blank" href="https://co.osjobs.net" class="navbar-item">求职课程</a>
+          <a href="https://osjobs.net/interview/" class="navbar-item">经验采访</a>
+          <a target="_blank" href="https://tool.osjobs.net" class="navbar-item">简历工具</a>
+          <a target="_blank" href="https://forum.osjobs.net" class="navbar-item">交流论坛</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        <article class="content post" data-type="posts" data-toc-num="true">
+
+            <h1 class="post-title">编程艺术家 Lee215 的算法旅程</h1>
+
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+        
+        <time datetime="2020-09-13T16:40:41+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2020.9.13</time>
+    
+    
+    
+    
+        
+        
+        
+            
+        
+    
+    
+    
+    
+</div>
+            
+
+            <div class="post-body"><p style="text-indent:0"><span class="drop-cap">大</span>家好，我是 Lee215，一名普通的算法爱好者，希望通过编程的方式给大家带来愉悦和惊喜的感受。感谢 Windson 的这一次采访。欢迎大家 Follow 我不定期更新的 <a href="https://www.youtube.com/channel/UCUBt1TDQTl1atYsscVoUzoQ" target="_blank" rel="noopener">Youtube</a> 和 <a href="https://space.bilibili.com/423728559" target="_blank" rel="noopener">B 站</a>。也可以通过公众号 “Lee215的Code” 了解更多。</p>
+<!--more-->
+<div style="text-align:center">
+  <img src="https://cdn.jsdelivr.net/gh/OSJobs/osjobs-info@master/assets/imgs/Lee.jpg" style="width:30%; border-radius:50%;"/>
+</div>
+<hr>
+<p><strong>“你现在是 Leetcode 上分数最高的用户，大家都很好奇你的计算机比赛经历，你是从什么时候开始参加计算机比赛的？”</strong></p>
+<p>我在初高中时期曾参加过数学竞赛，但大学期间我并没有参加过计算机比赛，本科毕业的时候我还没听说过 ACM （国际大学生程序设计竞赛）。2018 年我开始固定参加 Leetcode 上的比赛并写题解，后来也慢慢接触了 Google Kickstart 以及 CF 等其他类型的比赛。跟许多人的心态不太一样，我当初接触 Leetcode 的初衷并不是因为要面试而去刷题，那时候 Leetcode 还是一个小众的平台，对我来说它更像一个解谜，做数学题的地方。</p>
+<p><strong>“你还记得第一次参加 Leetcode 比赛的时候做出了多少题吗？参加了多少次之后能够完成四道题目？”</strong></p>
+<p>第一次的时候完成了两三道吧，不太记得了。我在参加了两三次之后就感觉可以做出四道题了。但由于当时对 C++，Python 和 Java 都不太熟练，所以时间不是很够。另外由于时区的因素，比赛在我所在地区的凌晨三点半才开始，这点也对发挥有一定的影响。</p>
+<br>
+<blockquote style="font-size:1.6rem;">我写题解并不是为了向大家展示我的算法有多么厉害，而是像看到了一部特别好看的电视剧，愿意去跟大家分享我的一些见解。</blockquote>
+<br>
+<p><strong>“为什么比赛后还耗费那么多时间去写题解？你写过几百遍题解，对自己哪一篇题解最满意？”</strong></p>
+<p>我在公众号的文章写给一句话，我给自己的定位是普通算法爱好者，努力做娱乐主播，争当人民艺术家。当然说自己是艺术家可能有点自夸，不过算法其实和艺术有共通之处。我写题解并不是为了向大家展示我的算法有多么厉害，而是像看到了一部特别好看的电视剧，愿意去跟大家分享我的一些见解，只不过是通过算法题的形式。最满意的题解有三篇：第一篇是<a href="https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/339959/One-Pass-O(N)-Time-and-Space" target="_blank" rel="noopener">1130. Minimum Cost Tree From Leaf Values</a> ，当时 Alex 负责 Leetcode 上所有题解，这道题他准备的是 O(N^3) 的 DP 解法，而我给出了 O(N^2) 的解法以及基于栈的 O(N) 的解法。由于这篇题解我把思路过程写得特别详细和具体，所以大家反馈也特别好。还有一篇题解是 <a href="https://leetcode.com/problems/stone-game/discuss/154610/DP-or-Just-return-true" target="_blank" rel="noopener">877. Stone Game</a>，当时有人来问我这道题，然后我就把原题贡献到 Leetcode 上，这道题目不是那种很套路的题目，虽然解答过程很简单，但是有很多的思考的过程在里面，这样的题目我觉得更有意思。最后一篇是<a href="https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/discuss/383670/JavaC++Python-Why-not-O(N)" target="_blank" rel="noopener">1190. Reverse Substrings Between Each Pair of Parentheses</a>, 因为所有人的答案都是 O(N^2) 的，但是 O(N) 的答案其实很通俗易懂，需要一点想象力。特别是看过诺兰新片《信条》后，我又想起了这题，推荐一起服用。</p>
+<br>
+<blockquote style="font-size:1.6rem;">其实只要代码写得够熟练，就会有更加充分的解题时间，不用花额外时间在语言的细节问题上。</blockquote>
+<br>
+<p><strong>“到目前为止，你大概做过多少道算法题呢？最大的收获是什么？”</strong></p>
+<p>一千道左右吧，但我觉得题目的数量并不重要，从零到两百道的时候，可能各方面增长地特别快，不过从两百题到一千题的整个过程，我感觉并没有非常明显的变化和增长，甚至觉得思路不如我之前灵活了，因为我已经知道这些题的套路，思维也会被这些套路所局限。我在做 Leetcode 过程中最大的收获并不是思维上的提高，而是写代码变得更加熟练。其实只要代码写得够熟练，就会有更加充分的解题时间，不用花额外时间在语言的细节问题上。</p>
+<p><strong>“你觉得哪类型的题目最有挑战性？”</strong></p>
+<p>有两类吧，一类是图的题目，因为图的题目没有那么直观，而且关于图的一些现成的结论挺多，如果没学过的话这部分挺难的。还有一类我不喜欢的是 NP 的问题。特别是那种用搜索去做的，其实这两类有一个共同点，就是只能暴力去搜索，虽然可以剪枝去优化，但始终需要探讨所有的可能性。这种题我不太喜欢，我也觉得自己写得不太好。</p>
+<p><strong>“我刚开始接触 Leetcode 的时候，StefanPochmann 在排名第一的位置遥遥领先，我从没想过有人能够超越他，不过你现在超过了他成为了第一，你做了哪些与其他人不一样的东西让你成为最高分的用户？”</strong></p>
+<p>第一，也是最重要的一点就是坚持，有非常长的一段时间我都坚持参加比赛，出答案也出得非常快。现在有许多选手也会在比赛后的第一时间给出答案，但他们可能不够坚持。第二，我对自己的答案质量要求是蛮高的，首先我会保证它一定正确，发现不对的地方我会及时修改。其次是所有的回复我都会看，根据回复对答案保持更新，我每天收到的回复可能比赞的数目还高。最后就是我尽量都会给出多种语言，像是 Java，C++，Python 的解法。</p>
+<p><strong>“在 Leetcode 上排名第一对你的职业发展有帮助吗？在工作中你自己参与的最有挑战性的项目是什么？”</strong></p>
+<p>好像没有吧，我没有和周围的同事说过，他们也不太知道。我感觉兴趣爱好是可以自己选择的，但是工作没有这么多机会可以让你凭爱好去选择，更多的时间是把事情一件一件做好。所以我并没有像大家想象那样，参与了火箭的发射，或者制造了一个无人车。作为程序员，我在工作中真正花在写代码的时间可能只有 20%，剩下的时间都是处理其他事情。</p>
+<p><strong>“以下这个问题是最多人想知道的，当你面算法轮的时候，如果在简历上写上你 Leetcode 的 ID Lee215，面试官是不是比你更加心虚？”</strong></p>
+<p>哈哈哈哈，我在简历和面试的过程中都没有提过我 Leetcode 的 ID，所以他们应该都不知道。</p>
+<p><strong>“那么当你担任面试官的时候，你是怎么去判断这个面试者的能力的？如果你看到他竞赛成绩很好，会有特别的方式去判断他吗？”</strong></p>
+<p>我会更看重他的整个思考过程吧，首先我不会出一道难题，然后让你一直做不出来。要是做不出来，我肯定会接几个提示，期待你在我的提示之下，能够一步一步做出来就可以了。起码能让我看出来，要么你准备得很充分，做题很充分。要么就是即使你什么都不背，这个算法也没听过，但是给你一点提示，你能把自己有能力进一步探索。我自己并不是计算机竞赛科班出身，我所在的公司也并没有特别重视竞赛选手，面试官也很少说因为你是一个竞赛选手，我今天一定要出一道难题难倒你，不会有人有这样的心理，大部分人还是出一道很正常的题目，期待你可以比较熟练地做出来，并且能很清楚跟面试官沟通。</p>
+<p><strong>“你觉得现在用算法题面试效果怎么样，你有改进面试流程的建议吗？”</strong></p>
+<p>我觉得现在的方式挺好的，首先它很有效，而且相对容易去准备。虽然说大家认为大厂的考察门槛普遍比较高，但我们公司考察的内容相对来说会更清晰。一些公司会问你许多细节的东西，而不拿出一个具体的问题，这对无论是刚毕业还是有一定经验的程序员都不是很好准备，而算法其实是特别好准备的。还有一些国内的公司，不一定是互联网公司，他们的标准是看你的第一学历，也就是说你的本科的学校在哪里，他们说没有找到比这更有效的一个方式了。那相比于他们来说的话，我觉得我们做算法题，真是特别的人性化，至少还可以努力。</p>
+<p><strong>“有些公司在面试的时候会考特别复杂的数据结构或者以人名命名的算法，例如手写平衡二叉查找树和 Prim 算法，这类题目应该怎么去准备呢？”</strong></p>
+<p>解算法题我基本用的都是好用和现成的东西，一些特殊的数据结构我也没有特别仔细学过，但这些知识点你需要明白大致的原理。现在这家公司电话面试的时候我就遇到了一道线段树的题，但是这道题好的地方在于，你不使用线段树也能够得到一个次优解，我也是在写完次优解之后再去写线段树的解法，但我并没有实现它，只是假设有这个 API，并且解释清楚原理。我认为面试官不会仔细地去看你每行代码写得到底对不对，更多的是一你要知道原理，二你能解释清楚，三你会用，这三步可能远比你能把代码一行一行写出来要重要的多。至于有名字的算法，碰上一次，你可能不在意，但是如果碰上两三次的话你就会主动去看，看完理解之后就能变成你自己的东西。而且大部分面试如果考一个准确的有人名的算法的话。它都是非常直白的一道题，这并不是一个难点，也并不会存在你的瓶颈期里边。</p>
+<p><strong>“你在做题的时候有遇过瓶颈期吗？就像一道题虽然做过几遍，但是过了一段时间发现还是不会做。遇到这种情况应该怎么去突破它呢？”</strong></p>
+<p>我也遇过瓶颈期，其实到现在也是，有特别多的题目我一看就知道不会做，还有的一些我觉得会做，但是怎么写也写不对。其实每个人的瓶颈期差别都挺大的，大部分人我认为还是练习不够，但是最起码你要先达到一个高度，就是能够用代码实现脑海的思路，这就已经挺厉害了。要突破瓶颈期的话，我建议可以多看看别人的解法，看看别人怎么实现的，要是觉得你很接近，自己能够解决，那就使劲花时间写，但这样会花费更多时间。其实像 Alex 也说过，Leetcode 上面有太多不够好的 DP 题了，我也很同意这一点。不过动态规划积累到一定经验的话是可以克服的。而一些栈的问题反而更难想出来，需要花一点苦功夫。</p>
+<p><strong>“和你的心态不一样，许多程序员都会以面试的心态去做题，因为许多公司考的都是 Leetcode 上面的题，你如何看待这种情况？”</strong></p>
+<p>这个东西就跟应试教育一样，像以前高中的时候，有的人很喜欢数理化，但是不一定能把它做好，有些人做这个的目的就是为了高考，不一定求甚解，但是分数可以考得高，我肯定不会批判他们什么，其实这也很正常。但是很多人他会问我，怎么才能把算法这件事情做好，但是我无法给他们一个满意的答案。我心里会觉得，我没给他们一个满意的答案是不是自己哪里做得不够好，让他们觉得我有什么技巧不愿意告诉他们，但其实并不是这样的。很多人想从我这里找一个捷径，但我无法给到他们。我一般就会跟他们说，第一，有一部分人是其实练习得还不够，功夫还没有下够。第二，我感觉他们不喜欢这个事情，如果一个人不喜欢一件事情，也很难做好它。</p>
+<br>
+<blockquote style="font-size:1.6rem;">从两百题到两千题之后的整个过程，他们可能是机械地做一件重复的事情，做题多少其实并不能反映出来你的水平和能力。</blockquote>
+<br>
+<p><strong>“有的求职者刷了许多题但是面试还是表现不好，你觉得他们缺乏的是什么能力？有的人可能就刷了两百道成功进大厂了，你觉得背后的原因是什么？”</strong></p>
+<p>很多人面试的时候，他会说自己刷了多少题。但其实从两百题到两千题之后的整个过程，他们可能是机械地做一件重复的事情，做题多少其实并不能反映出来你的水平和能力。每个人做题都有不同的方法，有的人数学基础特别好或者特别聪明，那么他们很快就能举一反三，融会贯通，把面试应试过去，然后把精力放在别的事情上。有些人既然学得没有那么快，那我觉得就是要勤能补拙，就是要下苦功夫。算法这个东西本身其实没有想象得那么难，比高考甚至还简单很多。只要你花时间去做成，其实就能做好。做题有多厉害和工作能力不一定画等号，因为解题就是特别简单的任务，它把所有的限制条件，输入都告诉你，你只需要填几行就可以了。而且能进大厂不代表有多么厉害，我就知道很多人水平没有很好，但还是进去了，面试这个事情肯定需要一定运气的成分，只不过你前面那些努力都会增加你成功的概率。算法能力其实是一直跟着你的，你具备这个思考能力之后，以后在可以应用到别的地方，不仅是刷题，甚至说工作或者下一次跳槽，这些都能用到。所以这些努力都是值得的。</p>
+<p><strong>“你怎么看待现在是市场上涌现的算法培训班？”</strong></p>
+<p>程序员花钱上课，能很快地知道这些东西该怎么做再拿到大厂的 Offer，我觉得这笔投入其实挺划算的。因为程序员，尤其是在北美地区每一个月的工资都挺多的。而且对于北美的应聘者来说，拿着北美的工资，但是在全球的学习成本是一样的。另外站在算法班的角度，他们还是挺能赚钱的。这件事情我觉得挺好的，我看着挺眼馋的。</p>
+<p><strong>“你自己有开办算法培训班的计划吗？有不少算法培训班联系过你录制课程吧？”</strong></p>
+<p>我一开始做算法题只是为了兴趣而不是为了赚钱，之前也曾经在算法群里和其他人一起轮流免费讲课，但是从没有大张旗鼓地去招学生或者利用我自己的名声四处揽财。开培训班的话，如果有一个特别好的契机的话，我觉得是没有问题的，一对一教算法也是可以的。联系我录课程的培训班说实话并没有很多，因为我也没主动联系他们，而且他们并不缺老师。其实算法大家都教，不同老师肯定教的侧重点不同。听我的课和别人的课，对学生的帮助上也肯定会有不同，但这个区别其实很微妙。</p>
+<p><strong>“如果你觉得让中国在编程世界更有影响力的话，是不是应该更多让其他人看到国人的项目或者视频，例如给你的 Youtube 视频加上英语字幕。还是说这个其实不重要，只要乐于分享自己的知识就好，我看你也在帖子里鼓励其他人去学习中文。”</strong></p>
+<p>在我的 Youtube 频道下面，很多人都让我出英语视频或者加上英语字幕，他们说这样肯定很多人要订阅你，粉丝会暴涨。但是最开始我做这个频道的原因并不是因为我想红，或者要当一个 Up 主去赚钱。最初原因是因为我用英语写文章解释得不够好。用中文解释的话有时候更能表达我整个思考的过程，我说得更舒服，更贴切，也可以给大家开心一下。但是现在我在家，视频都不一定出，再用英文的话，我就已经挺累的。如果还要加个英语字幕的话，我感觉我不会做这个事情。</p>
+<p><strong>“现阶段国人开发和维护的开源项目数量比较少，最出名的就是 Vue，如何鼓励年轻的程序员去参与开源项目？</strong>”</p>
+<p>这个问题还挺大的，我一个人肯定解决不了。有一点原因可能是跟竞争有关系。中国人这么多程序员，大家还吃不饱饭，要花时间去来做社区就比较难。这方面可以借鉴一下印度人的做法。我觉得很多的印度程序员，咱不说他的水平怎么样，他们不管做什么事情都愿意做个网站或写个 Blog。其实我有时候感觉他们写得没那么好，但是他们就特别爱这个事情。常有一些人在我的那个帖子底下贴上他们 Youtube 的链接。就说如果不明白的话来看我的视频，他们还是挺擅长宣传自己的，我觉得这是国人值得学习的。</p>
+<p><strong>“你能推荐一些算法方面的学习资源给大家吗？”</strong></p>
+<p>我没怎么看过算法书，推荐不了，不过我能推荐很多有意思的数学书，例如《从零到无穷大》。</p>
+<p><strong>“你自己的偶像是谁？例如名人或者科学家？”</strong></p>
+<p>这太难选了，我一般都说我喜欢杨幂，哈哈哈哈，北京大妞，我觉得性格挺爽朗的。</p>
+<p><strong>“如果可以随便选世界上任意一个地方，你会想去哪里工作呢？</strong></p>
+<p>如果抛开身份政治和安全问题的话，我会愿意一直在美国工作。因为美国的机会多，项目多，无论是待遇还是 Work Life Balance 都更好，这几点都很重要。我也很仔细考虑过去日本新加坡或者欧洲工作，人生体验也蛮重要的，除了个人发展方面，偶尔换个地方换个环境都挺好的。</p>
+<p><strong>“如果可以重新选择的话，你会有不同的职业规划吗？”</strong></p>
+<p>如果可以重新选择的话，我不一定会学计算机，本科的时候我原本想学的是经济管理，后来误打误撞才学了计算机。我感觉数学物理是指导整个客观世界的，而经济学会研究人类社会一些决策与一些规律，我觉得挺有意思的。不过即使不学计算机，算法题也是可以做的。因为只要会编程就好，不一定非得是计算机学院。</p>
+<br>
+<blockquote style="font-size:1.6rem;">如果你只是把算法当成一个敲门砖的话，就找你认为最有效的方式去把这个事情搞定。也不用在意为什么别人做得比你好，应该多下点功夫。</blockquote>
+<br>
+<p><strong>“有什么其他建议给你的粉丝以及我们的读者吗？”</strong></p>
+<p>算法只是程序员面试里的的一部分，如果喜欢的话，我觉得就是多做一做，我也比较喜欢和这样志同道合的朋友一起交流。如果你只是把算法当成一个敲门砖的话，就找你认为最有效的方式去把这个事情搞定，也不用在意为什么别人做得比你好，应该多下点功夫。给正在读书的读者的建议是别读研究生。我之前读了研究生，算是我走过的弯路。职场上研究生和本科生待遇和其他方面并不太会有多大的差别，还不如本科毕业直接找你喜欢的公司，工作两年给你带来的收益可能会比你读两年书要多。</p>
+</div>
+
+        </article>
+
+        
+
+        
+    
+    
+
+
+        
+    
+
+
+        
+
+        
+
+        
+    
+        
+        
+    
+    
+    
+    
+        <ul class="post-nav">
+            
+            
+                <li class="post-nav-next">
+                    <a href="//osjobs.net/interview/posts/%E4%BB%8E%E6%B1%BD%E8%BD%A6%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AC%E5%8F%98%E4%B8%BA%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88/" rel="next">从汽车工程师转变为软件工程师 ></a>
+                </li>
+            
+        </ul>
+    
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+            <footer class="footer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <div class="content has-text-centered">
+    <p style="font-size: 1rem;">
+      <strong>© 2020 Overseas Rabbit Team All Rights Reserved</strong>
+    </p>
+    <p style="font-size: 1rem;">
+      <strong><a href="mailto:contact@osjobs.net?subject=你好">联系我们</a></strong>
+    </p>
+  </div>
+</footer>
+
+        </div>
+        <script src="//osjobs.net/interview/js/meme.min.e37191ec1f0e5e27aea2ec20b2951ad15eece331f585ab17d73398389a3fce52.js" integrity="sha256-43GR7B8OXieuouwgspUa0V7s4zH1hasX1zOYOJo/zlI="></script>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speedAsDuration: true,
+        header: '[data-scroll-header]'
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    mediumZoom(document.querySelectorAll('div.post-body img'), {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
