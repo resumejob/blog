@@ -1,8 +1,8 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
+baseURL = "https://osjobs.net/blog/"
+title = "海外兔博客"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)

@@ -7,8 +7,8 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo Theme MemE</title>
-        <link>https://example.com/</link>
+        <title>海外兔博客</title>
+        <link>https://osjobs.net/blog/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.80.0 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 29 Jan 2021 11:31:20 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 29 Jan 2021 11:50:29 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://osjobs.net/blog/rss.xml" />
         
         
             <item>
                 <title>Proportional Pricing Model</title>
-                <link>https://example.com/posts/proportional-pricing-model/</link>
-                <guid isPermaLink="true">https://example.com/posts/proportional-pricing-model/</guid>
+                <link>https://osjobs.net/blog/posts/proportional-pricing-model/</link>
+                <guid isPermaLink="true">https://osjobs.net/blog/posts/proportional-pricing-model/</guid>
                 <pubDate>Fri, 29 Jan 2021 11:00:41 &#43;0800</pubDate>
                 
                     <author>wiwindson@outlook.com (Windson)</author>
