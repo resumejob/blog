@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//osjobs.net/interview/posts/</loc>
-    <lastmod>2021-01-29T11:02:04+08:00</lastmod>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-01-29T11:18:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>//osjobs.net/interview/posts/%E7%99%BE%E5%88%86%E6%AF%94%E4%BB%B7%E6%A0%BC%E7%AD%96%E7%95%A5/</loc>
-    <lastmod>2021-01-29T11:02:04+08:00</lastmod>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2021-01-29T11:18:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>//osjobs.net/interview/</loc>
-    <lastmod>2021-01-29T11:02:04+08:00</lastmod>
+    <loc>https://example.com/posts/proportional-pricing-model/</loc>
+    <lastmod>2021-01-29T11:18:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>//osjobs.net/interview/categories/</loc>
+    <loc>https://example.com/categories/</loc>
   </url>
   
   <url>
-    <loc>//osjobs.net/interview/tags/</loc>
+    <loc>https://example.com/tags/</loc>
   </url>
   
 </urlset>
