@@ -46,7 +46,7 @@ I suppose there are some potential factors for the increasing revenue:
 4. Risk estimation
 
 #### Consequentialism
-In the beginning, we thought that customers want to improve the ability for interviewing, but we were wrong. What customers really need is getting a job, **and there is a huge difference between them.** Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. On the contrary, Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment. 
+In the beginning, we thought that customers want to improve the ability for interviewing, but we were wrong. What customers really need is getting a job, **and there is a huge difference between them.** Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. But now, Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment. 
 
 #### Dynamic price
 1. Proportional Pricing Model means the payment varies with the salary level, customers cannot know the actual number they will pay before getting the job which will make them feel less expensive.
@@ -67,9 +67,9 @@ Let me talk about one more example to use Proportional Pricing Model. From Netfl
 Usually, customers subscribe to the service because of a certain episode, and they will cancel their subscription after watching it (the first-month cancellation rate of streaming media platform is higher than 40%). Therefore, streaming media platforms need to continuously spend money on producing new content or purchasing copyrights, which would bring a lot of costs.
 
 #### Customer is not happy
-I hate monthly subscription. Even though the monthly subscription price is cheaper than one cup of coffee. Some platforms want customers to automatically renew so they try different ways to prevent users from canceling, like bad UI, complicated steps, etc. Moreover, no customer feels they could take advantage of the same price. 
+Some platforms want customers to automatically renew so they try different ways to prevent users from canceling, like bad UI, complicated steps, etc. Moreover, no customer feels they could take advantage of the same price. 
 
-1. Customers who watch less will regret that they have spent too much on subscription fees. 
+1. Customers who watch less (like me) will regret that they have spent too much on subscription fees. I hate monthly subscription, even though the monthly subscription price is cheaper than one cup of coffee. 
 2. Customer who watches more will not satisfy as well for the following two reasons: 1) Because there are a huge amount of videos, it’s difficult to measure how many videos you need to watch to get the fee back. 2) Mostly, watching videos is just a kind of entertainment. People may feel guilty if they spend too much time on it every month, and it leads to subscription cancellation.
 
 ### How to fix it
@@ -81,7 +81,7 @@ With Proportional Pricing Model, I propose a new way to fix it:
 The advantages of this scheme are as follows:
 
 #### Dynamic price
-Since customers are hard to predict whether they have to pay for this month. 
+Since customers are hard to predict whether they have to pay for this month:
 1. Their watching time may unconsciously reach the level of charging. 
 2. They are no longer need to decide whether to subscribe to the platform depend on a specific episode. 
 
@@ -92,8 +92,8 @@ Since customers are hard to predict whether they have to pay for this month.
 
 
 ### New problems
-1. In the Proportional Pricing Model, We don't know how to set the number of percentages, 30% or 50%. Should we use the A/B test or there are other better ways for testing.
-2. It is harder to get the money back, Overseas Rabbit may take several months to get the money. Youtube may fail to charge some of the customers every month.
+1. In the Proportional Pricing Model, We don't know how to set the number of percentages, 30% or 50%? Should we use the A/B test or there are other better ways for testing.
+2. It is harder to get the money back, Overseas Rabbit may take several months to get the money from customer. Youtube may fail to charge some of the customers after every month.
 
 ### Summary
 From my point of view, there are two conditions to build the best pricing model 

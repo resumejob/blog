@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">海外兔博客</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-02-02T00:05:52&#43;08:00</updated>
+    <updated>2021-02-02T00:25:17&#43;08:00</updated>
     <id>https://osjobs.net/blog/</id>
     <link rel="alternate" type="text/html" href="https://osjobs.net/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://osjobs.net/blog/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Proportional Pricing Model</title>
             <link rel="alternate" type="text/html" href="https://osjobs.net/blog/posts/proportional-pricing-model/" />
             <id>https://osjobs.net/blog/posts/proportional-pricing-model/</id>
-            <updated>2021-02-02T00:05:46&#43;08:00</updated>
+            <updated>2021-02-02T00:24:54&#43;08:00</updated>
             <published>2021-01-29T11:00:41&#43;08:00</published>
             <author>
                     <name>Windson</name>
@@ -61,7 +61,7 @@
 &lt;li&gt;Risk estimation&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;consequentialism&#34;&gt;Consequentialism&lt;/h4&gt;
-&lt;p&gt;In the beginning, we thought that customers want to improve the ability for interviewing, but we were wrong. What customers really need is getting a job, &lt;strong&gt;and there is a huge difference between them.&lt;/strong&gt; Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. On the contrary, Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment.&lt;/p&gt;
+&lt;p&gt;In the beginning, we thought that customers want to improve the ability for interviewing, but we were wrong. What customers really need is getting a job, &lt;strong&gt;and there is a huge difference between them.&lt;/strong&gt; Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. But now, Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment.&lt;/p&gt;
 &lt;h4 id=&#34;dynamic-price&#34;&gt;Dynamic price&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;Proportional Pricing Model means the payment varies with the salary level, customers cannot know the actual number they will pay before getting the job which will make them feel less expensive.&lt;/li&gt;
@@ -80,9 +80,9 @@
 &lt;h4 id=&#34;it-cost-the-platform-a-lot&#34;&gt;It cost the platform a lot&lt;/h4&gt;
 &lt;p&gt;Usually, customers subscribe to the service because of a certain episode, and they will cancel their subscription after watching it (the first-month cancellation rate of streaming media platform is higher than 40%). Therefore, streaming media platforms need to continuously spend money on producing new content or purchasing copyrights, which would bring a lot of costs.&lt;/p&gt;
 &lt;h4 id=&#34;customer-is-not-happy&#34;&gt;Customer is not happy&lt;/h4&gt;
-&lt;p&gt;I hate monthly subscription. Even though the monthly subscription price is cheaper than one cup of coffee. Some platforms want customers to automatically renew so they try different ways to prevent users from canceling, like bad UI, complicated steps, etc. Moreover, no customer feels they could take advantage of the same price.&lt;/p&gt;
+&lt;p&gt;Some platforms want customers to automatically renew so they try different ways to prevent users from canceling, like bad UI, complicated steps, etc. Moreover, no customer feels they could take advantage of the same price.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Customers who watch less will regret that they have spent too much on subscription fees.&lt;/li&gt;
+&lt;li&gt;Customers who watch less (like me) will regret that they have spent too much on subscription fees. I hate monthly subscription, even though the monthly subscription price is cheaper than one cup of coffee.&lt;/li&gt;
 &lt;li&gt;Customer who watches more will not satisfy as well for the following two reasons: 1) Because there are a huge amount of videos, it’s difficult to measure how many videos you need to watch to get the fee back. 2) Mostly, watching videos is just a kind of entertainment. People may feel guilty if they spend too much time on it every month, and it leads to subscription cancellation.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;how-to-fix-it&#34;&gt;How to fix it&lt;/h3&gt;
@@ -93,7 +93,7 @@
 &lt;/ol&gt;
 &lt;p&gt;The advantages of this scheme are as follows:&lt;/p&gt;
 &lt;h4 id=&#34;dynamic-price-1&#34;&gt;Dynamic price&lt;/h4&gt;
-&lt;p&gt;Since customers are hard to predict whether they have to pay for this month.&lt;/p&gt;
+&lt;p&gt;Since customers are hard to predict whether they have to pay for this month:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Their watching time may unconsciously reach the level of charging.&lt;/li&gt;
 &lt;li&gt;They are no longer need to decide whether to subscribe to the platform depend on a specific episode.&lt;/li&gt;
@@ -106,8 +106,8 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;new-problems&#34;&gt;New problems&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;In the Proportional Pricing Model, We don&amp;rsquo;t know how to set the number of percentages, 30% or 50%. Should we use the A/B test or there are other better ways for testing.&lt;/li&gt;
-&lt;li&gt;It is harder to get the money back, Overseas Rabbit may take several months to get the money. Youtube may fail to charge some of the customers every month.&lt;/li&gt;
+&lt;li&gt;In the Proportional Pricing Model, We don&amp;rsquo;t know how to set the number of percentages, 30% or 50%? Should we use the A/B test or there are other better ways for testing.&lt;/li&gt;
+&lt;li&gt;It is harder to get the money back, Overseas Rabbit may take several months to get the money from customer. Youtube may fail to charge some of the customers after every month.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 &lt;p&gt;From my point of view, there are two conditions to build the best pricing model&lt;/p&gt;
