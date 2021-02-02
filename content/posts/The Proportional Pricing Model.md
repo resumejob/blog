@@ -1,6 +1,6 @@
 ---
-title: "Proportional Pricing Model"
-date: 2021-01-29T11:00:41+08:00
+title: "The Proportional Pricing Model"
+date: 2021-02-02:00:41+08:00
 ---
 
 Six months ago, [Overseas Rabbit Course](https://osjobs.net/co/) started using a new pricing model. After applying the new strategy, revenue from each customer has increased by 2000%. According to this data, the new pricing strategy seems to gain great success. Of course, it would be a danger if we simple inferring the reasons for succeeding from numbers. But after such a large improvement in revenue, I still tend to analyze the reasons behind it.
