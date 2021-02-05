@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">海外兔博客</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-02-02T12:38:35&#43;08:00</updated>
+    <updated>2021-02-05T11:58:07&#43;08:00</updated>
     <id>https://osjobs.net/blog/</id>
     <link rel="alternate" type="text/html" href="https://osjobs.net/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://osjobs.net/blog/atom.xml" />
@@ -20,16 +20,16 @@
             <title type="text">The Proportional Pricing Model</title>
             <link rel="alternate" type="text/html" href="https://osjobs.net/blog/posts/the-proportional-pricing-model/" />
             <id>https://osjobs.net/blog/posts/the-proportional-pricing-model/</id>
-            <updated>2021-02-02T12:38:32&#43;08:00</updated>
+            <updated>2021-02-05T11:56:33&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>Windson</name>
                     <uri>https://io-oi.me/</uri>
                     <email>wiwindson@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;Six months ago, &lt;a href=&#34;https://osjobs.net/co/&#34;&gt;Overseas Rabbit Course&lt;/a&gt; started using a new pricing model. After applying the new strategy, revenue from each customer has increased by 2000%. According to this data, the new pricing strategy seems to gain great success. Of course, it would be a danger if we simple inferring the reasons for succeeding from numbers. But after such a large improvement in revenue, I still tend to analyze the reasons behind it.&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;Six months ago, &lt;a href=&#34;https://osjobs.net/co/&#34;&gt;Overseas Rabbit Course&lt;/a&gt; started using a new pricing model. After applying the new strategy, revenue from each customer has increased by 2000%. According to this data, the new pricing strategy gained great success. Of course, it would be risky by inferring causation of success from numbers. But after such a large increase in revenue, this article will analyze the reasons behind it.&lt;/p&gt;</summary>
             
-                <content type="html">&lt;p&gt;Six months ago, &lt;a href=&#34;https://osjobs.net/co/&#34;&gt;Overseas Rabbit Course&lt;/a&gt; started using a new pricing model. After applying the new strategy, revenue from each customer has increased by 2000%. According to this data, the new pricing strategy seems to gain great success. Of course, it would be a danger if we simple inferring the reasons for succeeding from numbers. But after such a large improvement in revenue, I still tend to analyze the reasons behind it.&lt;/p&gt;
+                <content type="html">&lt;p&gt;Six months ago, &lt;a href=&#34;https://osjobs.net/co/&#34;&gt;Overseas Rabbit Course&lt;/a&gt; started using a new pricing model. After applying the new strategy, revenue from each customer has increased by 2000%. According to this data, the new pricing strategy gained great success. Of course, it would be risky by inferring causation of success from numbers. But after such a large increase in revenue, this article will analyze the reasons behind it.&lt;/p&gt;
 &lt;h3 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Previous pricing model&lt;/li&gt;
@@ -43,14 +43,14 @@
 &lt;h3 id=&#34;previous-pricing-model&#34;&gt;Previous pricing model&lt;/h3&gt;
 &lt;p&gt;Overseas Rabbit Course is an interview course for programmers including resume review and mock interview services. The previous pricing model is quite straight forward. It started in April 2018, the day Overseas Rabbit went online. our original pricing model charged a uniform price to each customer for the same course. Customers choose the desired course and pay for it, then we apply the related course for them.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/OSJobs/osjobs-info@master/assets/imgs/old%20price.png&#34; alt=&#34;Old pricing model&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Just like other service platforms, a common problem for this pricing model is to find the best price to achieve profit maximization, so we adjusted the price in a while. Under the premise that the reduction of price would lead to more customers. However, it doesn&amp;rsquo;t work that well. Looking back, even though this pricing model is used everywhere but may not be the one we need.&lt;/p&gt;
+&lt;p&gt;Just like other service platforms, a common problem for this pricing model is to find the best price to achieve profit maximization, so we adjusted the price in a while. Under the premise that the reduction of price would lead to more customers. However, it didn&amp;rsquo;t work well. Reflecting on the failure, the wide adopted pricing strategy might not be the one most suitable for our service even though it is used everywhere.&lt;/p&gt;
 &lt;h3 id=&#34;new-pricing-model&#34;&gt;New pricing model&lt;/h3&gt;
 &lt;p&gt;Until June 2020, a customer proposed to use 50% of his monthly salary to pay for our course. It reminds me of another programmer course I have seen before. It is also charged in proportion to the salary. I had doubts about this pricing model at that moment for two reasons:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Paying by proportion is much more expensive than a fixed fee. The median salary of Chinese programmers is about 12,000 yuan, and 50% of the salary is almost 10 times more than the original fee. I&amp;rsquo;m not sure how many customers are willing to pay for it.&lt;/li&gt;
 &lt;li&gt;Job hunting is a combination of ability and luck. Some customers may take a few months to be successfully recruited. Such uncertainty may cause unstable revenue.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;However, after we found a customer is willing to pay by proportion. We made some adjustments to the course content and adopted a dynamic charging strategy. &lt;strong&gt;Nowadays, all of our courses are free to join, and we charge 50% of the customer&amp;rsquo;s salary only after they had been recruited succeed.&lt;/strong&gt; I call this pricing strategy Proportional Pricing Model. I believe someone must have discovered it earlier than me and has named it, such as the programmer course I saw before. (Welcome to leave a comment if you found the source. ) Surprisingly, under the new pricing model, there are more customers than before, and we successfully increased our revenue by 20 times recently.&lt;/p&gt;
+&lt;p&gt;However, after we found a customer who is willing to pay by proportion. We made some adjustments to the course content and adopted a dynamic charging strategy. &lt;strong&gt;Nowadays, all of our courses are free to join, and we charge 50% of the customer&amp;rsquo;s salary only after they have been recruited successfully.&lt;/strong&gt; I call this pricing strategy Proportional Pricing Model. I believe someone must have discovered it earlier than me and has named it, such as the programmer course I saw before. (Welcome to leave a comment if you found the source. ) Surprisingly, under the new pricing model, there are more customers than before, and we successfully increased our revenue by 20 times recently.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/OSJobs/osjobs-info@master/assets/imgs/new%20price.png&#34; alt=&#34;New pricing model&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;why&#34;&gt;Why&lt;/h3&gt;
 &lt;p&gt;I suppose there are some potential factors for the increasing revenue:&lt;/p&gt;
@@ -61,29 +61,29 @@
 &lt;li&gt;Risk estimation&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;consequentialism&#34;&gt;Consequentialism&lt;/h4&gt;
-&lt;p&gt;In the beginning, we thought that customers want to improve the ability for interviewing, but we were wrong. What customers really need is getting a job, &lt;strong&gt;and there is a huge difference between them.&lt;/strong&gt; Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. But now, Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment.&lt;/p&gt;
+&lt;p&gt;In the beginning, we thought that customers wanted to improve the skill for interviewing, but we were wrong. What customers really need is getting a job, &lt;strong&gt;and there is a huge difference between them.&lt;/strong&gt; Most people will only judge the quality of the course based on the result after completing it. Under the previous price model, customers will balance between the course cost and interview skills obtained with their criterion. But now, the Proportional Pricing Model closely connects the recruitment certainty with our course so customers would balance the course cost with the success of recruitment.&lt;/p&gt;
 &lt;h4 id=&#34;dynamic-price&#34;&gt;Dynamic price&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Proportional Pricing Model means the payment varies with the salary level, customers cannot know the actual number they will pay before getting the job which will make them feel less expensive.&lt;/li&gt;
+&lt;li&gt;Proportional Pricing Model means the payment varies with the customer income, customers cannot know the actual number they will pay before getting the job which will make them feel less expensive.&lt;/li&gt;
 &lt;li&gt;Proportional payment is fairer. Higher cost means a higher salary. Customers should expect to pay as much as possible because it means they have a higher salary.&lt;/li&gt;
 &lt;li&gt;Percentages cannot be directly compared. If setting a fixed fee, such as 6,000 yuan per customer, the customer can directly compare 6,000 yuan with what he/she could purchase, such as books or other courses. &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;willingness-of-payment&#34;&gt;Willingness of payment&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Everyone likes free products, customers can attend our courses for free until they found a job. Since 60% of our customers are unemployed, they don&amp;rsquo;t want to pay another bill.&lt;/li&gt;
+&lt;li&gt;Everyone likes free products, customers can attend our courses for free until they find a job. Since 60% of our customers are unemployed, they don&amp;rsquo;t want to pay another bill.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Customers will pay for what they think is worth.&lt;/strong&gt; More than one customer has said that they are willing to spend more than 50% of their salary to exchange successful recruitment, which has never happened under the previous strategy.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;wrong-risk-estimation&#34;&gt;Wrong risk estimation&lt;/h4&gt;
-&lt;p&gt;&amp;ldquo;It&amp;rsquo;s obvious that&amp;rdquo; most people will eventually get a job. However, lots of customers will overestimate the risk of unable to find a job when affected by the fear of unemployment.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;It&amp;rsquo;s obvious that&amp;rdquo; most people will eventually get a job. However, lots of customers will overestimate the risk of being unable to find a job when affected by the fear of unemployment.&lt;/p&gt;
 &lt;h3 id=&#34;streaming-media-platform-subscription&#34;&gt;Streaming media platform subscription&lt;/h3&gt;
 &lt;p&gt;Let me talk about one more example to use Proportional Pricing Model. From Netflix, Youtube to Chinese media platforms like Tencent Video, Mango TV uses a monthly subscription price model. Although they use some strategies to attract customers continuously subscribing, such as 30 days of free trial, continuous monthly discounts, annual discounts, family membership package, there are still several problems:&lt;/p&gt;
 &lt;h4 id=&#34;it-cost-the-platform-a-lot&#34;&gt;It cost the platform a lot&lt;/h4&gt;
-&lt;p&gt;Usually, customers subscribe to the service because of a certain episode, and they will cancel their subscription after watching it (the first-month cancellation rate of streaming media platform is higher than 40%). Therefore, streaming media platforms need to continuously spend money on producing new content or purchasing copyrights, which would bring a lot of costs.&lt;/p&gt;
+&lt;p&gt;Usually, customers subscribe to the service because of a certain episode, and they will cancel their subscription after watching it (the first-month cancellation rate of streaming media platforms is higher than 40%). Therefore, streaming media platforms need to continuously spend money on producing new content or purchasing copyrights, which would bring a lot of costs.&lt;/p&gt;
 &lt;h4 id=&#34;customer-is-not-happy&#34;&gt;Customer is not happy&lt;/h4&gt;
 &lt;p&gt;Some platforms want customers to automatically renew so they try different ways to prevent users from canceling, like bad UI, complicated steps, etc. Moreover, no customer feels they could take advantage of the same price.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Customers who watch less (like me) will regret that they have spent too much on subscription fees. I hate monthly subscription, even though the monthly subscription price is cheaper than one cup of coffee.&lt;/li&gt;
-&lt;li&gt;Customer who watches more will not satisfy as well for the following two reasons: 1) Because there are a huge amount of videos, it’s difficult to measure how many videos you need to watch to get the fee back. 2) Mostly, watching videos is just a kind of entertainment. People may feel guilty if they spend too much time on it every month, and it leads to subscription cancellation.&lt;/li&gt;
+&lt;li&gt;Customers who watch less (like me) will regret that they have spent too much on subscription fees. I hate monthly subscriptions, even though the monthly subscription price is cheaper than one cup of coffee.&lt;/li&gt;
+&lt;li&gt;Customers who watch more will not be satisfied as well for the following two reasons: 1) Because there are a huge amount of videos, it’s difficult to measure how many videos you need to watch to get the fee back. 2) Mostly, watching videos is just a kind of entertainment. People may feel guilty if they spend too much time on it every month, and it leads to subscription cancellation.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;how-to-fix-it&#34;&gt;How to fix it&lt;/h3&gt;
 &lt;p&gt;With Proportional Pricing Model, I propose a new way to fix it:&lt;/p&gt;
